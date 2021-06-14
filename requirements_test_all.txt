@@ -63,16 +63,16 @@ advantage_air==0.2.1
 agent-py==0.0.23
 
 # homeassistant.components.geonetnz_quakes
-aio_geojson_geonetnz_quakes==0.12
+aio_geojson_geonetnz_quakes==0.13
 
 # homeassistant.components.geonetnz_volcano
-aio_geojson_geonetnz_volcano==0.5
+aio_geojson_geonetnz_volcano==0.6
 
 # homeassistant.components.nsw_rural_fire_service_feed
-aio_geojson_nsw_rfs_incidents==0.3
+aio_geojson_nsw_rfs_incidents==0.4
 
 # homeassistant.components.gdacs
-aio_georss_gdacs==0.4
+aio_georss_gdacs==0.5
 
 # homeassistant.components.ambient_station
 aioambient==1.2.4
@@ -130,6 +130,12 @@ aiolip==1.1.4
 # homeassistant.components.lyric
 aiolyric==1.0.7
 
+# homeassistant.components.modern_forms
+aiomodernforms==0.1.5
+
+# homeassistant.components.yamaha_musiccast
+aiomusiccast==0.6
+
 # homeassistant.components.notion
 aionotion==1.1.0
 
@@ -166,11 +172,14 @@ aioymaps==1.1.0
 # homeassistant.components.airly
 airly==1.1.0
 
+# homeassistant.components.ambee
+ambee==0.3.0
+
 # homeassistant.components.ambiclimate
 ambiclimate==0.2.1
 
 # homeassistant.components.androidtv
-androidtv[async]==0.0.59
+androidtv[async]==0.0.60
 
 # homeassistant.components.apns
 apns2==0.3.0
@@ -205,7 +214,7 @@ azure-eventhub==5.1.0
 base36==0.1.1
 
 # homeassistant.components.zha
-bellows==0.24.0
+bellows==0.25.0
 
 # homeassistant.components.bmw_connected_drive
 bimmer_connected==0.7.15
@@ -341,7 +350,7 @@ gTTS==2.2.2
 garages-amsterdam==2.1.1
 
 # homeassistant.components.garmin_connect
-garminconnect_aio==0.1.4
+garminconnect_ha==0.1.6
 
 # homeassistant.components.geo_json_events
 # homeassistant.components.usgs_earthquakes_feed
@@ -351,13 +360,13 @@ geojson_client==0.6
 geopy==2.1.0
 
 # homeassistant.components.geo_rss_events
-georss_generic_client==0.4
+georss_generic_client==0.6
 
 # homeassistant.components.ign_sismologia
-georss_ign_sismologia_client==0.2
+georss_ign_sismologia_client==0.3
 
 # homeassistant.components.qld_bushfire
-georss_qld_bushfire_alert_client==0.3
+georss_qld_bushfire_alert_client==0.5
 
 # homeassistant.components.huawei_lte
 # homeassistant.components.kef
@@ -387,7 +396,7 @@ google-nest-sdm==0.2.12
 googlemaps==2.5.1
 
 # homeassistant.components.gree
-greeclimate==0.11.4
+greeclimate==0.11.7
 
 # homeassistant.components.growatt_server
 growattServer==1.0.1
@@ -411,7 +420,7 @@ hangups==0.4.14
 hass-nabucasa==0.43.0
 
 # homeassistant.components.tasmota
-hatasmota==0.2.14
+hatasmota==0.2.16
 
 # homeassistant.components.jewish_calendar
 hdate==0.10.2
@@ -734,7 +743,7 @@ pybotvac==0.0.20
 pycfdns==1.2.1
 
 # homeassistant.components.cast
-pychromecast==9.1.2
+pychromecast==9.2.0
 
 # homeassistant.components.climacell
 pyclimacell==0.18.2
@@ -746,7 +755,7 @@ pycomfoconnect==0.4
 pycoolmasternet-async==0.1.2
 
 # homeassistant.components.daikin
-pydaikin==2.4.1
+pydaikin==2.4.2
 
 # homeassistant.components.deconz
 pydeconz==79
@@ -804,10 +813,10 @@ pyheos==0.7.2
 pyhiveapi==0.4.2
 
 # homeassistant.components.homematic
-pyhomematic==0.1.72
+pyhomematic==0.1.73
 
 # homeassistant.components.ialarm
-pyialarm==1.8.1
+pyialarm==1.9.0
 
 # homeassistant.components.icloud
 pyicloud==0.10.2
@@ -982,7 +991,7 @@ pysmartthings==0.7.6
 pysoma==0.0.10
 
 # homeassistant.components.sonos
-pysonos==0.0.50
+pysonos==0.0.51
 
 # homeassistant.components.spc
 pyspcwebgw==0.4.0
@@ -1167,7 +1176,7 @@ spotipy==2.18.0
 
 # homeassistant.components.recorder
 # homeassistant.components.sql
-sqlalchemy==1.4.13
+sqlalchemy==1.4.17
 
 # homeassistant.components.srp_energy
 srpenergy==1.3.2
@@ -1271,7 +1280,7 @@ wiffi==1.0.1
 withings-api==2.3.2
 
 # homeassistant.components.wled
-wled==0.4.4
+wled==0.6.0
 
 # homeassistant.components.wolflink
 wolf_smartset==0.1.8
@@ -1280,7 +1289,7 @@ wolf_smartset==0.1.8
 xbox-webapi==2.0.11
 
 # homeassistant.components.knx
-xknx==0.18.4
+xknx==0.18.6
 
 # homeassistant.components.bluesound
 # homeassistant.components.rest
@@ -1320,7 +1329,7 @@ zigpy-zigate==0.7.3
 zigpy-znp==0.5.1
 
 # homeassistant.components.zha
-zigpy==0.33.0
+zigpy==0.34.0
 
 # homeassistant.components.zwave_js
 zwave-js-server-python==0.26.1
